@@ -8,7 +8,7 @@ function App() {
   
   const appClass = isDark ? "App dark" : "App light"
   
-  const darkModeBtnText = isDark ? "Dark" : "Light"
+  const darkModeBtnText = isDark ? "Dark Mode" : "Light Mode"
 
   function toggleDarkMode(event) {
     setIsDark (!isDark)
